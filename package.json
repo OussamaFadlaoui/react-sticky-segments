@@ -1,0 +1,32 @@
+{
+  "name": "react-sticky-segments-hook",
+  "version": "1.0.0",
+  "description": "A React.js hook for fancy sticky-scrolling segments",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OussamaFadlaoui/react-sticky-segments-hook.git"
+  },
+  "keywords": [
+    "React",
+    "hooks",
+    "React.js",
+    "Sticky-scroll",
+    "Parallax"
+  ],
+  "author": "Oussama Fadlaoui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OussamaFadlaoui/react-sticky-segments-hook/issues"
+  },
+  "homepage": "https://github.com/OussamaFadlaoui/react-sticky-segments-hook#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.7.11",
+    "typescript": "^4.7.4"
+  }
+}
