@@ -1,15 +1,16 @@
 {
-  "name": "react-sticky-segments-hook",
+  "name": "react-sticky-segments",
   "version": "1.0.0",
   "description": "A React.js hook for fancy sticky-scrolling segments",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "npx tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OussamaFadlaoui/react-sticky-segments-hook.git"
+    "url": "git+https://github.com/OussamaFadlaoui/react-sticky-segments.git"
   },
   "keywords": [
     "React",
@@ -21,9 +22,9 @@
   "author": "Oussama Fadlaoui",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OussamaFadlaoui/react-sticky-segments-hook/issues"
+    "url": "https://github.com/OussamaFadlaoui/react-sticky-segments/issues"
   },
-  "homepage": "https://github.com/OussamaFadlaoui/react-sticky-segments-hook#readme",
+  "homepage": "https://github.com/OussamaFadlaoui/react-sticky-segments#readme",
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
     "@types/node": "^18.7.11",
