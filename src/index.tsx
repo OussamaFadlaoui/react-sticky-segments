@@ -1,11 +1,17 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import {StickySegment} from "./lib";
 
-const ReactStickySegment: React.FC<{ numberOfColumns: number }> = ({ numberOfColumns }) => {
+const DemoApp = () => {
     return (
         <div>
-            Hello, world! - {numberOfColumns}
+            <h1>
+                My demo
+            </h1>
+
+            <StickySegment/>
         </div>
-    );
+    )
 };
 
-export default ReactStickySegment;
+ReactDOM.render(<DemoApp/>, document.getElementById("root"));
